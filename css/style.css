@@ -1,0 +1,19 @@
+.logo{
+    width: 150px;
+}
+.container{
+    padding: 15px;
+}
+.sliderPage{
+    background-image: url(../assets/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-inner{
+    background-image: url(../assets/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+}
+.carousel-item{
+    padding: 10px;
+}
