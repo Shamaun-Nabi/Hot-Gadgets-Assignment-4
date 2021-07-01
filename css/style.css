@@ -1,8 +1,12 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .logo{
     width: 150px;
 }
 .container{
-    padding: 15px;
+    padding: 18px;
 }
 .sliderPage{
     background-image: url(../assets/bg-1.png);
@@ -16,4 +20,28 @@
 }
 .carousel-item{
     padding: 10px;
+}
+.carousel-indicators [data-bs-target]{
+background: linear-gradient(to right, #ffb75e, #ed8f03);
+ border-radius: 15px;
+ height: 1px;
+ border-top: none;
+ width: 15px;
+
+}
+#first-button{
+    width: 40px;
+}
+.see-all{
+    color: #ed8f03;
+    font-weight: 500;
+}
+.card{
+    border: none;
+    box-shadow: 5px 12px 14px -9px grey;
+    border-radius: 10px;
+}
+.card img{
+    width: 300px;
+
 }
